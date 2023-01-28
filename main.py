@@ -2,10 +2,11 @@ import cv2
 import numpy as np
 
 # Read the image
-img = cv2.imread('AgAthon\pples_in_tree.jpg')
+img = cv2.imread('Agathon2023Team28\delicious-red-apple.jpg')
 
 # Convert to HSV color space
 hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+
 
 #detect number of blobs
 detector = cv2.SimpleBlobDetector_create()
